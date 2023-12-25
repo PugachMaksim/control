@@ -1,0 +1,75 @@
+457  cat > Pets.txt
+  458  cat > pack animals.txt
+  459  cat > pack_animals.txt
+  460  cat Pets.txt pack_animals.txt > human_friends.txt
+  461  cat > human_friends.txt
+  462  cat Pets.txt pack_animals.txt > human_friends.txt
+  463  cat human_friends.txt
+  464  cat > Pets.txt
+  465  cat Pets.txt pack_animals.txt > human_friends.txt
+  466  apt update
+  467  sudo apt update
+  468  apt install mysql -y
+  469  sudo mkdir control_work 
+  470  mv human_friends.txt./control_work 
+  471  mv human_friends/control_work 
+  472  mv human_friends./control_work 
+  473  cd /control_work 
+  474  cd /home/control_work 
+  475  cd /home/bundy/control_work 
+  476  mv human_friends /home/bundy/control_work 
+  477  ls
+  478  cd /home
+  479  ls
+  480  ll
+  481  cd /bundy
+  482  cd /home/bundy
+  483  ls
+  484  mv human_friends.txt control_work/
+  485  sudo mv human_friends.txt control_work/
+  486  ls
+  487  cd /home/bundy/control_work/
+  488  ls
+  489  cd //
+  490  cd ..
+  491  cd~
+  492  cd /
+  493  ls
+  494  cd home
+  495  cd bundy/
+  496  wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
+  497  sudo apt install ./mysql-apt-config_0.8.12-1_all.deb
+  498  wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+  499  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+  500  sudo apt-key list
+  501  sudo apt-key export 5072E1F5 | sudo gpg --dearmour -o /etc/apt/keyrings/mysql.gpg
+  502  ls /etc/apt/keyrings/
+  503  sudo apt-key export 3A79BD29 | sudo gpg --dearmour -o /etc/apt/keyrings/mysql.gpg
+  504  /etc/apt/sources.list.d/mysql.list
+  505  sudo /etc/apt/sources.list.d/mysql.list
+  506  sudo nano /etc/apt/sources.list.d/mysql.list
+  507  sudo apt-key del 5072E1F5
+  508  sudo apt update
+  509  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+  510  sudo grep -rhE ^deb /etc/apt/sources.list*
+  511  sudo add-apt-repository -r deb http://repo.mysql.com/apt/ubuntu/ jammy mysql-apt-config
+  512  sudo add-apt-repository -r deb http://repo.mysql.com/apt/ubuntu/ jammy mysql-8.0
+  513  sudo add-apt-repository -r deb http://repo.mysql.com/apt/ubuntu/ jammy mysql-tools
+  514  apt-add-repository --list
+  515  wget https://dev.mysql.com/downloads/file/?id=524196
+  516  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+  517  sudo apt-get update
+  518  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb
+  519  sudo apt-get install mysql-server
+  520  systemctl status mysql
+  521  wget https://repo.mysql.com/mysql-apt-config_0.8.9-1_all.deb
+  522  sudo dpkg -i mysql-apt-config_0.8.9-1_all.deb
+  523  wget https://dev.mysql.com/downloads/file/?id=523689
+  524  sudo dpkg - i mysql-connector-python-py3_8.2.0-1ubuntu23.10_amd64.deb
+  525  sudo dpkg -i mysql-connector-python-py3_8.2.0-1ubuntu23.10_amd64.deb
+  526  wget https://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-py3_8.2.0-1ubuntu23.10_amd64.deb
+  527  sudo dpkg -i mysql-connector-python-py3_8.2.0-1ubuntu23.10_amd64.deb
+  528  wget https://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-py3_8.2.0-1ubuntu22.04_amd64.deb
+  529  sudo dpkg -i mysql-connector-python-py3_8.2.0-1ubuntu22.04_amd64.deb
+  530  sudo dpkg -r mysql-connector-python-py3
+  531  history
